@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative alarm clock display output</title>
+  <desc id="desc">A four digit seven segment style display shows 12:34. This is an illustrative rendering, not a simulation screenshot.</desc>
+  <rect width="960" height="360" rx="28" fill="#0b1220"/>
+  <rect x="28" y="28" width="904" height="304" rx="22" fill="#111c2e" stroke="#26364d" stroke-width="3"/>
+  <text x="480" y="74" text-anchor="middle" fill="#a5b4fc" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="5">DIGITAL ALARM CLOCK · EXAMPLE OUTPUT</text>
+  <g fill="#fb5353" opacity=".95">
+    <!-- Stylized seven segment digits: 1 2 3 4 -->
+    <g transform="translate(185 112)"><path d="M45 0h75l-10 12H55z M122 8l12 9v75l-12 10-8-10V17z M122 105l12 9v75l-12 10-8-10v-75z M45 190h75l-10 12H55z M36 105l12 9v75l-12 10-8-10v-75z M36 8l12 9v75l-12 10-8-10V17z M45 95h75l-10 12H55z" opacity=".18"/><path d="M122 8l12 9v75l-12 10-8-10V17z M122 105l12 9v75l-12 10-8-10v-75z"/></g>
+    <g transform="translate(350 112)"><path d="M45 0h75l-10 12H55z M122 8l12 9v75l-12 10-8-10V17z M122 105l12 9v75l-12 10-8-10v-75z M45 190h75l-10 12H55z M36 105l12 9v75l-12 10-8-10v-75z M36 8l12 9v75l-12 10-8-10V17z M45 95h75l-10 12H55z"/><path d="M45 95h75l-10 12H55z M36 105l12 9v75l-12 10-8-10v-75z M45 190h75l-10 12H55z"/></g>
+    <circle cx="477" cy="205" r="9"/><circle cx="477" cy="254" r="9"/>
+    <g transform="translate(520 112)"><path d="M45 0h75l-10 12H55z M122 8l12 9v75l-12 10-8-10V17z M122 105l12 9v75l-12 10-8-10v-75z M45 190h75l-10 12H55z M36 105l12 9v75l-12 10-8-10v-75z M36 8l12 9v75l-12 10-8-10V17z M45 95h75l-10 12H55z"/><path d="M45 0h75l-10 12H55z M122 8l12 9v75l-12 10-8-10V17z M45 95h75l-10 12H55z M122 105l12 9v75l-12 10-8-10v-75z M45 190h75l-10 12H55z"/></g>
+    <g transform="translate(685 112)"><path d="M45 0h75l-10 12H55z M122 8l12 9v75l-12 10-8-10V17z M122 105l12 9v75l-12 10-8-10v-75z M45 190h75l-10 12H55z M36 105l12 9v75l-12 10-8-10v-75z M36 8l12 9v75l-12 10-8-10V17z M45 95h75l-10 12H55z"/><path d="M122 8l12 9v75l-12 10-8-10V17z M122 105l12 9v75l-12 10-8-10v-75z M45 95h75l-10 12H55z M36 8l12 9v75l-12 10-8-10V17z"/></g>
+  </g>
+  <text x="480" y="312" text-anchor="middle" fill="#94a3b8" font-family="Arial,Helvetica,sans-serif" font-size="16">Illustrative preview of the HH:MM display format</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Digital alarm clock RTL block diagram</title>
+  <desc id="desc">Clock and reset feed the clock divider and time counter. Time and button inputs feed the time counter and alarm controller. The display driver drives a four digit display and the alarm controller drives the alarm output.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#334155"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.title{font-size:30px;font-weight:700}.label{font-size:18px;font-weight:700}.small{font-size:15px}.box{stroke:#334155;stroke-width:2;rx:14}.line{stroke:#334155;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="600" y="52" text-anchor="middle" class="title">24-Hour Digital Alarm Clock — RTL Architecture</text>
+  <rect x="45" y="111" width="190" height="112" fill="#e0f2fe" class="box"/>
+  <text x="140" y="151" text-anchor="middle" class="label">Board inputs</text>
+  <text x="140" y="180" text-anchor="middle" class="small">clk · rst_n</text>
+  <text x="140" y="202" text-anchor="middle" class="small">control buttons</text>
+  <rect x="300" y="110" width="225" height="115" fill="#dbeafe" class="box"/>
+  <text x="412" y="153" text-anchor="middle" class="label">Clock divider</text>
+  <text x="412" y="183" text-anchor="middle" class="small">1-second enable pulse</text>
+  <rect x="605" y="102" width="260" height="145" fill="#dcfce7" class="box"/>
+  <text x="735" y="145" text-anchor="middle" class="label">Time counter</text>
+  <text x="735" y="175" text-anchor="middle" class="small">hours · minutes · seconds</text>
+  <text x="735" y="202" text-anchor="middle" class="small">24-hour rollover</text>
+  <rect x="605" y="330" width="260" height="145" fill="#fef3c7" class="box"/>
+  <text x="735" y="372" text-anchor="middle" class="label">Alarm controller</text>
+  <text x="735" y="402" text-anchor="middle" class="small">alarm registers + comparator</text>
+  <text x="735" y="430" text-anchor="middle" class="small">enable · acknowledge</text>
+  <rect x="940" y="103" width="220" height="145" fill="#ede9fe" class="box"/>
+  <text x="1050" y="147" text-anchor="middle" class="label">Display driver</text>
+  <text x="1050" y="177" text-anchor="middle" class="small">digit scan + 7-segment</text>
+  <text x="1050" y="205" text-anchor="middle" class="small">current / alarm select</text>
+  <rect x="940" y="360" width="220" height="100" fill="#ffe4e6" class="box"/>
+  <text x="1050" y="401" text-anchor="middle" class="label">Alarm output</text>
+  <text x="1050" y="431" text-anchor="middle" class="small">alarm_out</text>
+  <rect x="940" y="530" width="220" height="95" fill="#fff" stroke="#64748b" stroke-width="2" rx="12"/>
+  <text x="1050" y="570" text-anchor="middle" class="label">4-digit display</text>
+  <text x="1050" y="600" text-anchor="middle" class="small">HH:MM, active-low pins</text>
+  <path d="M235 142 H292" class="line"/>
+  <path d="M525 166 H596" class="line"/>
+  <text x="560" y="150" text-anchor="middle" class="small">tick_1hz</text>
+  <path d="M235 195 C380 285 480 390 596 400" class="line"/>
+  <text x="383" y="295" text-anchor="middle" class="small">time/alarm controls</text>
+  <path d="M865 156 H931" class="line"/>
+  <text x="897" y="142" text-anchor="middle" class="small">HH:MM</text>
+  <path d="M865 350 C902 330 906 265 942 225" class="line"/>
+  <text x="917" y="270" text-anchor="middle" class="small">alarm time</text>
+  <path d="M865 402 H931" class="line"/>
+  <path d="M1050 248 V521" class="line"/>
+  <text x="1075" y="500" class="small">seg_n, digit_n</text>
+  <text x="600" y="670" text-anchor="middle" class="small">All modules share clk and active-low reset rst_n. Buttons require board-level synchronization/debounce.</text>
+</svg>
