@@ -85,8 +85,9 @@ The testbench is expected to print a `PASS` line and finish. To create a wavefor
 7. Synthesize, implement, program the FPGA, and connect `alarm_out` to a suitable buzzer driver or indicator. Do not drive a high-current buzzer directly from an FPGA pin.
 
 No board constraints are included because the correct pins and electrical interface depend on the FPGA board and display module.
-## Output Waveform
 
+## Output Waveform
+https://github.com/DonaldB2003/Digital-Alarm-Clock/blob/main/images/Screenshot%202026-11-25%20114428.png
 ## Design notes
 
 - The divider creates a clock-enable pulse; the design does not use a divided signal as a separate clock.
